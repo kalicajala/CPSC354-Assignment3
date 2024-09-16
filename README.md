@@ -48,28 +48,21 @@ Metaprogramming first started appearing in the 1960s with languages like Lisp, M
    - **Effect:** As more rules and guidelines are added, the metaprogram itself becomes more complex. It may need to account for multiple edge cases, variations, and interactions between different guidelines.
    - **Result:** This can make the metaprogram harder to read, understand, and maintain. Developers may struggle with understanding the logic, especially if the guidelines overlap or conflict, leading to "spaghetti code."
 
-### 2. **Performance Overhead**
-   - **Effect:** The more complex the rules, the more computations or conditional logic the metaprogram has to perform to generate or modify code. It may need to evaluate many conditions or transformations before producing the final code.
-   - **Result:** This can increase the runtime performance overhead, especially if the metaprogram operates dynamically (at runtime). If it generates code at compile-time, the compilation process may become slower.
-
-### 3. **Maintenance and Scalability**
+### 2. **Maintenance and Scalability**
    - **Effect:** As the number of guidelines grows, maintaining the metaprogram becomes more difficult. Developers need to ensure that any updates to the rules don’t break existing functionality, which can become increasingly challenging as the system scales.
    - **Result:** The scalability of the metaprogram decreases, as adding more rules may cause exponential growth in the complexity of the logic required to handle all cases. This can also lead to difficulties in debugging and testing.
 
-### 4. **Debugging and Error Handling**
+### 3. **Debugging and Error Handling**
    - **Effect:** With increased complexity, the likelihood of bugs or unintended interactions between guidelines increases. Generated code may be harder to trace back to the original rules, especially if the metaprogram modifies code dynamically.
    - **Result:** Debugging becomes more challenging, as developers must track down errors not only in the generated code but also in the rules and logic that produced it. Error messages may become less helpful or more cryptic due to the dynamic nature of the code generation.
 
-### 5. **Flexibility vs. Rigidity**
-   - **Effect:** Adding more guidelines can make the metaprogram rigid, reducing its flexibility. It may become harder to adapt the metaprogram to new requirements, since any changes might require rethinking or rewriting parts of the code-generation logic.
-   - **Result:** The metaprogram may become less adaptable to new use cases or environments, as the additional guidelines could limit its ability to generate code flexibly. Over-constraining the system can stifle the benefits of metaprogramming, such as dynamic adaptability.
-
-### 6. **Code Generation and Redundancy**
+### 4. **Code Generation and Redundancy**
    - **Effect:** As the number of guidelines increases, the amount of generated code may increase significantly. The metaprogram might generate redundant or overly verbose code to account for all possible scenarios, rather than optimizing for simplicity.
    - **Result:** The final output could be bloated or inefficient, negating some of the benefits of metaprogramming. This could also make the generated code harder to maintain and optimize manually.
 
 **References**
 - **[Constraint Logic Programming](https://link.springer.com/chapter/10.1007/3-540-57186-8_70)**
+- **[Code Redundancy](https://ieeexplore.ieee.org/abstract/document/4051119)**
 
 ## Limitations and Possible Future Pathways
 
@@ -105,6 +98,7 @@ Metaprogramming first started appearing in the 1960s with languages like Lisp, M
 
 **References**
 - **[Security Risks](https://ieeexplore.ieee.org/abstract/document/8424643)**
+- **[Cross Language Interoperability](https://dl.acm.org/doi/fullHtml/10.1145/2534706.2534719)**
 
 ### Questions Asked
 - What kinds of programs were made more efficient by the early used of metaprogramming?
